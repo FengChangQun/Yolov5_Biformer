@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['mosquito']
+
+roboflow:
+  workspace: school-safya
+  project: mosquito-detection-cewi8
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-safya/mosquito-detection-cewi8/dataset/5

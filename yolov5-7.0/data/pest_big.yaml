@@ -1,0 +1,13 @@
+train: pest_big/images/train
+val:  pest_big/images/val
+test: pest_big/images/test
+
+nc: 1
+names: ['leaf-diseases-2 - v1 2023-10-20 8-25am']
+
+roboflow:
+  workspace: project-uz5rw
+  project: plant-leaf-disease-detection-f1v9k
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-uz5rw/plant-leaf-disease-detection-f1v9k/dataset/1
